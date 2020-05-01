@@ -1,8 +1,131 @@
+<!Doctype html>
 <html>
+
 <head>
-Test Website
-</head>
-<body>
-<h1> Website Under Maintanance </h1>
-</body>
-</html>
+
+	<title>Harithakiranam</title>
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-red.min.css" />
+	<script defer src="js/material.min.js"></script>
+	
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/style.css" /> 
+	
+	</head>
+	
+	<body>
+	
+	
+	
+	
+	
+	<!-- Login Dialog -->
+	
+	<dialog id="loginDialog" class="mdl-dialog">
+    <h4 class="mdl-dialog__title">Admin Login</h4>
+    <div class="mdl-dialog__content">
+	<p id="loginError"></p>
+     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="loginEmail">
+    <label class="mdl-textfield__label" for="sample3">Email</label>
+  </div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="password" id="loginPassword">
+    <label class="mdl-textfield__label" for="sample3">Password</label>
+  </div>
+    </div>
+    <div class="mdl-dialog__actions">
+<!-- Colored raised button -->
+<button id="loginBtn" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+  Login
+</button>
+
+
+
+
+<!-- MDL Spinner Component -->
+<div id="loginProgress" </div>
+    </div>
+  </dialog>
+	
+	<div class="login-cover">
+	
+	
+	
+	
+	
+	<!-- MDL Spinner Component -->
+<div class=""></div>
+	</div>
+	
+
+	
+	
+	
+	
+	<!-- Main Page Content-->
+	
+	
+	  
+	  
+	  
+
+	  
+	  
+	  <!-- Colored raised button -->
+
+
+
+	
+	
+
+	
+	
+	
+	
+	
+	<!-- Button Action -->
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Firebase Login -->
+	
+	<script src="js/firebase.js"></script>
+<script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC8CaePYwQ6HInfEFpodaCKe-U3xcpxo5E",
+    authDomain: "test-hosts.firebaseapp.com",
+    databaseURL: "https://test-hosts.firebaseio.com",
+    projectId: "test-hosts",
+    storageBucket: "test-hosts.appspot.com",
+    messagingSenderId: "216461015729",
+    appId: "1:216461015729:web:311a9fe9e114e212ff4090",
+    measurementId: "G-Z4L5GYEL73"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+	<script src="js/jquery-3.1.0.js"></script>
+	<script src="js/index.js"></script>
+
+	</body>
+	</html>

@@ -1,0 +1,62 @@
+
+/*circle style box button*/
+
+button{
+	text-align:caption-side;
+    border: none;
+	color: white;
+	padding: 20px;
+	text-decoration:none;
+	display: inline-block;
+	font-size: 24px;
+	margin: 4px 2px;
+	border-radius:30px;
+	}
+
+label {
+	  	display: inline-block;
+	  	width: 20%;
+	  	text-align: left;
+	  	margin: 5px
+		
+	}
+	
+/*Red Color Box*/	
+red{
+	color: white;
+	font-size: 17px;
+	border-radius:10px;	
+	}
+	
+/*Yellow Color Box*/	
+yellow{
+	color: black;
+	font-size: 20px;
+	border-radius:10px;		
+	}
+	
+/*Green Color Box*/	
+green{
+	color: white;
+	font-size: 17px;
+	border-radius:10px;	
+	}
+
+/*Box Button*/
+floating-box {
+    float: left;
+    margin-left: 80px;
+}
+
+bin_health{
+	color: white;
+	font-size: 12px;
+	border-radius:10px;	
+	}
+	
+bin_status{
+	color: white;
+	font-size: 12px;
+	border-radius:10px;	
+	
+	}
